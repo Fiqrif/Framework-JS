@@ -1,5 +1,6 @@
 # Framework-JS
 🚀 Panduan Dunia Framework JavaScript 🚀
+
 Selamat datang di panduan dunia framework JavaScript yang dinamis dan terkadang membingungkan! Repositori ini bertujuan untuk memberikan gambaran umum, perbandingan, dan contoh dasar dari framework JavaScript paling populer yang digunakan saat ini.
 
 Tujuan kami adalah membantu Anda:
@@ -20,6 +21,7 @@ Best Practices: Sering kali sudah menerapkan praktik terbaik dalam hal performa 
 Berikut adalah framework dan library yang paling mendominasi percakapan di dunia pengembangan web modern.
 
 1. ⚛️ React
+
 Dikembangkan oleh Meta (Facebook), React secara teknis adalah sebuah library untuk membangun antarmuka pengguna (UI), tetapi sering disebut sebagai framework karena ekosistemnya yang luas.
 
 Filosofi: Berbasis komponen, deklaratif, dan "Learn Once, Write Anywhere".
@@ -34,19 +36,3 @@ JSX (campuran HTML di dalam JS) bisa terasa aneh bagi pemula.
 Kapan Menggunakannya: Proyek yang membutuhkan UI interaktif yang kompleks, aplikasi Single-Page (SPA), dan ketika Anda ingin membangun untuk web dan mobile sekaligus.
 Contoh Kode (Counter Component dengan Hooks):
 
-JavaScript
-
-import React, { useState } from 'react';
-
-function Counter() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>Anda menekan tombol sebanyak {count} kali</p>
-      <button onClick={() => setCount(count + 1)}>
-        Tekan Aku
-      </button>
-    </div>
-  );
-}
